@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color:black ;
+    color: #fff;
+}
+
+html {
+    font-size: 62.5%; 
+}
+
+.header {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("header-image.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding: 1rem 8%;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+    
+
+
+nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+
+
+
+.logo {
+    width: 15rem;
+    cursor: pointer;
+
+}
+
+
+
+
+
+nav button {
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: .7rem 2rem;
+    font-size: 1.2rem;
+    border-radius: .4rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+
+
+
+
+.language-btn {
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: .1 solid white;
+    padding: .7rem 1rem;
+}
+.language-btn img {
+    width: 1rem;
+    margin-left: 1rem;
+}
+
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 10rem;
+
+
+}
+
+.header-content h1 {
+    font-size: 6rem;
+    line-height: 7rem;
+    font-weight: 60;
+    max-width: 65rem;
+}
+.header-content h3 {
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.email-signup {
+    background: #fff;
+    border-radius: .4rem;
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    overflow: hidden;
+
+
+
+}
+
+.email-signup input {
+    flex: 1;
+    border: 0;
+    margin-left: 2rem;
+
+
+}
+
+.email-signup button {
+    background-color: #db0001;
+    border: 0rem;
+    outline: 0;
+    color: #fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+    padding: 1.5rem 3rem;
+}
+
+
+
+/*..............features............*/
+
+
+.first {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+   
+   
+}
+.second {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto; 
+}
+
+.third {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto; 
+}
+
+
+.first h1{
+    font-size: 4.8rem;
+}
+.first p{
+    font-size: 2.4rem;
+    font-family:"netflix sans";
+    margin-top: 2rem;
+}
+
+.second h1{
+    font-size: 4.8rem;
+}
+.second p{
+    font-size: 2.4rem;
+    font-family:"netflix sans";
+    margin-top: 2rem;
+}
+
+.third h1{
+    font-size: 4.8rem;
+}
+.third p{
+    font-size: 2.4rem;
+    font-family:"netflix sans";
+    margin-top: 2rem;
+}
+.img1 {
+    width: 30vw;
+}
+
+.img3 {
+    width: 30vw;
+}
+
+
+
+
+/*....................FOOTER..........*/
+
+.footer {
+    display: flex;
+    font-size: 4.8rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    background-color: grey;
+    color: #fff;
+    padding: 2.4rem;
+    width: 88.2rem;
+    height: 8.2rem;
+    margin-left: 50rem;
+    margin-top: 1rem;
+    font-size: 2.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.para {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    font-size: 2.2rem;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;   
+}
+
+
+.email button {
+    background-color: #db0001;
+    border: 0rem;
+    outline: 0;
+    color: #fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+    padding: 1.5rem 3rem;
+    border-radius: .5rem;
+}
+.email input {
+    background-color:black;
+    border: .1rem solid grey;
+    padding-left: 5rem;
+    margin-right: 1rem;
+    border-radius: .5rem;
+    color: #fff;
+}
+
+.foot-panel {
+    height: 50rem;
+    display:flex ;
+    justify-content: space-evenly;
+    margin-top: 7rem;
+}
+
+ul a {
+    display: block;
+    text-decoration: underline;
+    margin-top: 1rem;
+}
+ul p {
+    text-decoration: underline;
+}
+
+@media(max-width: 455px) {
+    .first {
+        display: block;
+        margin-top: 1rem;
+      
+
+    }
+    .img1 {
+        display: flex;
+        width: 50rem;
+        height: 50rem;
+         
+    }
+   
+}
+@media(max-width: 455px) {
+    .second {
+        display: block;
+        margin-top: 1rem;
+       
+
+    }
+    .img2 {
+        display: flex;
+        width: 50rem;
+        height: 50rem;
+
+    }
+}
+
+       
+@media(max-width: 455px) {
+    html {
+        font-size: 35%;
+
+    }
+}
+
+   
+ 
+    
